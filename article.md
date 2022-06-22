@@ -25,11 +25,11 @@ header-includes: |
 
 # Sommaire:
 
-1.  Python langage favori en science (des données) : Pourquoi ?
-2.  Éléments de la théorie des graphes 
-3.  Structures de données python pour les graphes
-4.  Problème du plus court chemin et application 
-5.  Conclusion
+* 1.  Python langage favori en science (des données) : Pourquoi ?
+* 2.  Éléments de la théorie des graphes 
+* 3.  Structures de données python pour les graphes
+* 4.  Problème du plus court chemin et application 
+* 5.  Conclusion
 
 
 #       1. Python langage favori en science (des données) : Pourquoi ? 
@@ -63,29 +63,21 @@ La théorie des graphes propose des solutions à cette classe de problèmes (et 
 
 ### Quelques définitions : 
 
-#### ---> Python:
-Python est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut. 
+* Python: est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut. 
 
-#### ---> Dictionnaire Python:
-C'est une collection qui associe une clé à une valeur.
+* Dictionnaire Python: est une collection qui associe une clé à une valeur.
 
-#### ---> Collection en Python :
-Collection en Python est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
+* Collection en Python : est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
 
-#### ---> Graphe:
-Graphe est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliées par des liens . Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
+* Graphe: est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliées par des liens . Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
 
-#### ---> Structures de données:
-Ceux sont des moyens spécifiques d'organiser et de stocker des données afin qu'elles puissent être consultées et travaillées de manière efficace.
+* Structures de données: sont des moyens spécifiques d'organiser et de stocker des données afin qu'elles puissent être consultées et travaillées de manière efficace.
 
-#### ---> Matrice: 
-Une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes, est connue sur le nom de matrice.
+* Matrice: est une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes.
 
-#### ---> Algorithme:
-C'est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme.
+* Algorithme: est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme.
 
-#### ---> Méthode: 
-Une methode est une fonction qui "appartient à" un objet.
+* Méthode: est une fonction qui "appartient à" un objet.
 
 
  
