@@ -1,7 +1,7 @@
 ---
 title: |
   "Graphes sous Python."
-date: May, 2022
+date: June, 2022
 lang: en-EN
 urlcolor: blue
 geometry: "left=2.5cm,right=2.5cm,top=3cm,bottom=3cm"
@@ -20,8 +20,7 @@ header-includes: |
             pdfsubject={Graphes sous Python},
             pdfkeywords={Python, Programming, Graphes, Distance},
             pdfproducer={Emacs, Pandoc, Latex, Markdown},
-            pdfcreator={Emacs, Pandoc, Latex, Markdown}}
-    
+            pdfcreator={Emacs, Pandoc, Latex, Markdown}}    
 ---
 
 # Sommaire:
@@ -62,21 +61,31 @@ La théorie des graphes propose des solutions à cette classe de problèmes (et 
 ### Quelques définitions : 
 
 
----> Python: est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut.
+#### ---> Python:
 
----> Dictionnaire Python: est une collection qui associe une clé à une valeur
+Python est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut.
 
----> Collection en Python : est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
+#### ---> Dictionnaire Python:
 
----> Graphe: est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliés par des liens. Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
+C'est une collection qui associe une clé à une valeur
 
----> Structures de données: sont des moyens spécifiques d'organiser et de stocker des données afin qu'elles puissent être consultées et travaillées de manière efficace.
+#### ---> Collection en Python :
+Collection en Python est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
 
----> Matrice: une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes
+#### ---> Graphe:
+Graphe est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliés par des liens. Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
 
----> Algorithme: est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme
+#### ---> Structures de données:
+Ceux sont des moyens spécifiques d'organiser et de stocker des données afin qu'elles puissent être consultées et travaillées de manière efficace.
 
----> Méthode: est une fonction qui "appartient à" un objet
+#### ---> Matrice: 
+Une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes, est connue sur le nom de matrice
+
+#### ---> Algorithme:
+C'est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme
+
+#### ---> Méthode: 
+Une methode est une fonction qui "appartient à" un objet
 
 
  
@@ -85,6 +94,7 @@ La théorie des graphes propose des solutions à cette classe de problèmes (et 
 ## Les graphes avec python:
 
 Il existe plusieurs implémentations de la représentation des graphes en python. (aussi, les graphes peuvent également être considérées comme étant des structures de données). 
+
 
 ### Liste et Matrice d’adjacence:
 
