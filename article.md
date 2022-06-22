@@ -279,11 +279,11 @@ Comme nous pouvons le voir, la théorie des graphes est très utile en python.
 
 #      Ressources : 
 
-![Application des graphes en Python](https://python-course.eu/applications-python/graphs-python.php)
-![Algorithme de Dijkstra dans un graphe](https://128mots.com/index.php/2020/02/17/lalgorithme-de-dijkstra-dans-un-graphe-pondere-et-oriente-en-plus-de-128-mots/)
-![Implementation Python de l'algorithme de Dijkstra](https://128mots.com/index.php/2020/02/18/implementation-python-de-lalgorithme-de-dijkstra/)
-![Implementation Python de l'algorithme de Bellman Ford](https://128mots.com/index.php/2021/03/01/implementation-python-de-lalgorithme-de-bellman-ford/)
-![Algorithme de Kruskal Python](https://128mots.com/index.php/2021/03/23/algorithme-de-kruskal-python/)
-![Bellman Ford Algorithm](https://favtutor.com/blogs/bellman-ford-python)
-![Bellman Ford Algorithm]( https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
-![Graph data structure and algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+[Application des graphes en Python](https://python-course.eu/applications-python/graphs-python.php)
+[Algorithme de Dijkstra dans un graphe](https://128mots.com/index.php/2020/02/17/lalgorithme-de-dijkstra-dans-un-graphe-pondere-et-oriente-en-plus-de-128-mots/)
+[Implementation Python de l'algorithme de Dijkstra](https://128mots.com/index.php/2020/02/18/implementation-python-de-lalgorithme-de-dijkstra/)
+[Implementation Python de l'algorithme de Bellman Ford](https://128mots.com/index.php/2021/03/01/implementation-python-de-lalgorithme-de-bellman-ford/)
+[Algorithme de Kruskal Python](https://128mots.com/index.php/2021/03/23/algorithme-de-kruskal-python/)
+[Bellman Ford Algorithm](https://favtutor.com/blogs/bellman-ford-python)
+[Bellman Ford Algorithm]( https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
+[Graph data structure and algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
