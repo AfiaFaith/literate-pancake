@@ -45,11 +45,68 @@ Exemple introductif:
 
 Il est 16H30 sur Dakar. Mia, étudiante au DIT, se trouve chez elle où le chargeur de son PC vient de lâcher. Pas de chance, le cours de Python est programmé ce soir à 18H.  Elle doit donc se rendre dans un magasin afin d’acquérir un nouveau chargeur. Comme il est possible de le voir sur le graphe associé, plusieurs voies plus ou moins encombrées (embouteillages) sont praticables pour ce faire.
 
-![alt text](http://url/to/img.png) img/Im2.png
+![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/Im1.png) 
+
 
 Mia se pose naturellement la question suivante :  Quel est le plus rapide ? 
 
+
 La théorie des graphes propose des solutions à cette classe de problèmes (et à bien plus encore). Elle peut être définie comme une discipline à l’intersection de l’informatique et des mathématiques qui vise à résoudre divers problèmes réels qui induisent des relations entre entités. Les entités sont appelées nœuds ou sommets, les relations sont appelées dans le cas orienté arc sinon, arêtes. Les graphes sont couramment représentés par une matrice ou une liste d’adjacence. 
+
+
+Matrice d’adjacence du graphe ci-dessus:
+
+![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/Im2.png) 
+
+
+Quelques définitions : 
+
+
+★   Python: est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut.
+
+★   Dictionnaire Python: est une collection qui associe une clé à une valeur
+
+★   Collection en Python : est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
+
+★   Graphe: est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliés par des liens. Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
+
+★   Structures de données: sont des moyens spécifiques d'organiser et de stocker des données afin qu'elles puissent être consultées et travaillées de manière efficace.
+
+★   Matrice: une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes
+
+★   Algorithme: est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme
+
+★   Méthode: est une fonction qui "appartient à" un objet
+
+
+ 
+         3.  Structures de données python pour les graphes:
+
+Les graphes avec python:
+
+Il existe plusieurs implémentations de la représentation des graphes en python. (aussi, les graphes peuvent également être considérées comme étant des structures de données). 
+
+Liste et Matrice d’adjacence:
+
+Guido Van Rossum, le père de Python, suggère que les dictionnaires sont une bonne implémentation des listes d’adjacence en Python. Pour ce qui est des matrices d’adjacence, plusieurs structures de données peuvent permettre leur représentation à savoir : les listes imbriquées, les tableaux numpy (ndarray) ou encore les data frames pandas.  
+Il faut par ailleurs noter qu’il apparaît plus rigoureux de créer une classe permettant de construire un graphe de bout en bout. 
+
+
+Liste d’adjacence -> Dictionnaire Python:
+
+
+```python
+# Représentation d'un graphe avec des dictionnaires 
+# Chaque clé représente un noeud/sommet (vertices)
+
+graph = { "MaisonMia" : {"Banque": 20, "DIT":25, "Magasin":25 },
+          "Banque" : {"MaisonMia":20, "Magasin":15},
+          "Magasin" : {"MaisonMia":20, "Banque":15,"DIT":45},
+          "DIT" : {"MaisonMia":10, "Magasin":45}                 
+        }
+
+```
+
 
 
 foo bar baz
