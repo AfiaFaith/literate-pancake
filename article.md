@@ -29,11 +29,13 @@ header-includes: |
 2.  Éléments de la théorie des graphes 
 3.  Structures de données python pour les graphes
 4.  Problème du plus court chemin et application 
+5.  Conclusion
 
 
 #       1. Python langage favori en science (des données) : Pourquoi ? 
 
 Connu aujourd’hui comme étant un langage de programmation incontournable en data science, Python doit son succès à sa vaste communauté d’internautes très active et aux nombreuses bibliothèques (Numpy, Pandas, PyTorch etc.) scientifiques qu’il contient. Du fait qu’il autorise la programmation orientée objet et la programmation fonctionnelle, Python peut être considéré comme étant flexible et multi paradigmes. De plus, il combine une puissance remarquable avec une syntaxe très claire. Il peut aussi être utilisé comme langage d'extension pour les applications nécessitant une interface programmable. Enfin, Python est portable : il fonctionne sous différents systèmes d’exploitation comme Linux, macOS, et Windows.
+
 
 
 #       2.  Éléments de la théorie des graphes 
@@ -44,29 +46,27 @@ Connu aujourd’hui comme étant un langage de programmation incontournable en d
 
 Il est 16H30 sur Dakar. Mia, étudiante au DIT, se trouve chez elle où le chargeur de son PC vient de lâcher. Pas de chance, le cours de Python est programmé ce soir à 18H. Elle doit donc se rendre dans un magasin afin d’acquérir un nouveau chargeur avant de se rendre en cours. Comme il est possible de le voir sur le graphe associé, plusieurs voies plus ou moins encombrées (embouteillages) sont praticables pour ce faire.
 
+
 ![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/Im1.png) 
 
 
-#### Mia se pose naturellement la question suivante :  Quel est le plus rapide ? 
+#### Mia se pose naturellement la question suivante :  Quel est le plus rapide ?
+
+La théorie des graphes propose des solutions à cette classe de problèmes (et à bien plus encore). Elle peut être définie comme une discipline à l’intersection de l’informatique et des mathématiques qui vise à résoudre divers problèmes réels qui induisent des relations entre entités. Les entités sont appelées nœuds ou sommets, les relations sont appelées dans le cas orienté arc sinon, arêtes. Les graphes sont couramment représentés par une matrice ou une liste d’adjacence.
 
 
-La théorie des graphes propose des solutions à cette classe de problèmes (et à bien plus encore). Elle peut être définie comme une discipline à l’intersection de l’informatique et des mathématiques qui vise à résoudre divers problèmes réels qui induisent des relations entre entités. Les entités sont appelées nœuds ou sommets, les relations sont appelées dans le cas orienté arc sinon, arêtes. Les graphes sont couramment représentés par une matrice ou une liste d’adjacence. 
+#### Matrice d’adjacence du graphe ci-dessus: 
 
-
-#### Matrice d’adjacence du graphe ci-dessus:
 
 ![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/Im2.png) 
 
 
 ### Quelques définitions : 
 
-
 #### ---> Python:
-
 Python est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut. 
 
 #### ---> Dictionnaire Python:
-
 C'est une collection qui associe une clé à une valeur.
 
 #### ---> Collection en Python :
@@ -89,9 +89,10 @@ Une methode est une fonction qui "appartient à" un objet.
 
 
  
-#         3.  Structures de données python pour les graphes:
+#         3. Structures de données python pour les graphes:
 
 ## Les graphes avec python:
+
 
 Il existe plusieurs implémentations de la représentation des graphes en python. (aussi, les graphes peuvent également être considérées comme étant des structures de données). 
 
@@ -102,8 +103,7 @@ Guido Van Rossum, le père de Python, suggère que les dictionnaires sont une bo
 Il faut par ailleurs noter qu’il apparaît plus rigoureux de créer une classe permettant de construire un graphe de bout en bout. 
 
 
-### Liste d’adjacence -> Dictionnaire Python:
-
+### Liste d’adjacence -> Dictionnaire Python: 
 
 ```python
 # Représentation d'un graphe avec des dictionnaires 
@@ -117,8 +117,8 @@ graph = { "MaisonMia" : {"Banque": 20, "DIT":25, "Magasin":25 },
 
 ```
 
-### Architecture d’une classe Graph:
 
+### Architecture d’une classe Graph: 
 
 ```python
 import sys
@@ -163,13 +163,12 @@ class Graph(object):
         "Returns the value of an edge between two nodes."
         return self.graph[node1][node2]
 
-
 ```
 
 ### Algorithme de Moore-Dijkstra:
 
-
 Du nom de l'informaticien néerlandais Edsger Dijkstra et publié en 1959,  cet algorithme est de complexité polynomiale. Pour n sommets et a arcs, le temps d’exécution est O((a+n)log(n)). 
+ 
 
 
 ### Principe : 
@@ -240,7 +239,9 @@ def print_result(previous_nodes, shortest_path, start_node, target_node):
 
 ```
 
-#         4.  Problème du plus court chemin et application:
+
+#        4.  Problème du plus court chemin et application:
+
 
 ## Solution au problème de Mia:
 
@@ -248,6 +249,7 @@ Les algorithmes du plus court chemin permettent, étant donné un sommet fixé d
 
 
 ## Implémentation Python: 
+
 
 ```python
 noeuds = ["MaisonMia","Banque","Magasin","DIT"]
@@ -271,11 +273,13 @@ print_result(previous_nodes, shortest_path,"Magasin","DIT")
 
 ```
 
+
 #        5.  Conclusion:
 
-Nous pouvons dire que le choix d'un itinéraire à l'intérieur de chaque zone terrestre n'a pas d'importance et que la seule chose qui compte est l'ordre (ou la séquence) dans lequel les ponts sont traversés. En étudiant le problème de Mia, nous avons pu éliminer les faits inutiles et concentrer notre attention sur les terres et les ponts qui les relient. De cette façon, nous avons créé les bases de la théorie des graphes pour résoudre notre problème.En prenant une "zone terrestre" comme un sommet et chaque pont comme une arête, nous avons "réduit" le problème à un graphe.
+Somme toute, il est possible de souligner qu'au moyen de la théorie des graphes, des données sur les trajets et de la flexibilité de Python, une solution viable au problème d’itinéraire de Mia peut être proposée notamment grâce aux implémentations d’une classe Graph et d’un algorithme du plus court chemin (Moore-Dijkstra). 
 
-En résumé,
+
+## Plus court chemin:
 
 ```python
 # Nous avons trouvé le meilleur chemin suivant avec une valeur de 25.
@@ -284,10 +288,8 @@ En résumé,
 # Magasin -> MaisonMia -> DIT
 ```
 
-Comme nous pouvons le voir, la théorie des graphes est très utile en python.
 
-
-#      Ressources : 
+#        Ressources : 
 
 * [Application des graphes en Python](https://python-course.eu/applications-python/graphs-python.php)
 
