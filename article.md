@@ -42,7 +42,7 @@ Connu aujourd’hui comme étant un langage de programmation incontournable en d
 
 ### Exemple introductif:
 
-Il est 16H30 sur Dakar. Mia, étudiante au DIT, se trouve chez elle où le chargeur de son PC vient de lâcher. Pas de chance, le cours de Python est programmé ce soir à 18H.  Elle doit donc se rendre dans un magasin afin d’acquérir un nouveau chargeur. Comme il est possible de le voir sur le graphe associé, plusieurs voies plus ou moins encombrées (embouteillages) sont praticables pour ce faire.
+Il est 16H30 sur Dakar. Mia, étudiante au DIT, se trouve chez elle où le chargeur de son PC vient de lâcher. Pas de chance, le cours de Python est programmé ce soir à 18H. Elle doit donc se rendre dans un magasin afin d’acquérir un nouveau chargeur avant de se rendre en cours. Comme il est possible de le voir sur le graphe associé, plusieurs voies plus ou moins encombrées (embouteillages) sont praticables pour ce faire.
 
 ![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/Im1.png) 
 
@@ -63,29 +63,29 @@ La théorie des graphes propose des solutions à cette classe de problèmes (et 
 
 #### ---> Python:
 
-Python est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut.
+Python est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut. 
 
 #### ---> Dictionnaire Python:
 
-C'est une collection qui associe une clé à une valeur
+C'est une collection qui associe une clé à une valeur.
 
 #### ---> Collection en Python :
 Collection en Python est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
 
 #### ---> Graphe:
-Graphe est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliés par des liens. Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
+Graphe est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliées par des liens . Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
 
 #### ---> Structures de données:
 Ceux sont des moyens spécifiques d'organiser et de stocker des données afin qu'elles puissent être consultées et travaillées de manière efficace.
 
 #### ---> Matrice: 
-Une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes, est connue sur le nom de matrice
+Une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes, est connue sur le nom de matrice.
 
 #### ---> Algorithme:
-C'est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme
+C'est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme.
 
 #### ---> Méthode: 
-Une methode est une fonction qui "appartient à" un objet
+Une methode est une fonction qui "appartient à" un objet.
 
 
  
