@@ -45,6 +45,12 @@ Exemple introductif:
 
 Il est 16H30 sur Dakar. Mia, étudiante au DIT, se trouve chez elle où le chargeur de son PC vient de lâcher. Pas de chance, le cours de Python est programmé ce soir à 18H.  Elle doit donc se rendre dans un magasin afin d’acquérir un nouveau chargeur. Comme il est possible de le voir sur le graphe associé, plusieurs voies plus ou moins encombrées (embouteillages) sont praticables pour ce faire.
 
+![alt text](http://url/to/img.png) img/Im2.png
+
+Mia se pose naturellement la question suivante :  Quel est le plus rapide ? 
+
+La théorie des graphes propose des solutions à cette classe de problèmes (et à bien plus encore). Elle peut être définie comme une discipline à l’intersection de l’informatique et des mathématiques qui vise à résoudre divers problèmes réels qui induisent des relations entre entités. Les entités sont appelées nœuds ou sommets, les relations sont appelées dans le cas orienté arc sinon, arêtes. Les graphes sont couramment représentés par une matrice ou une liste d’adjacence. 
+
 
 foo bar baz
 
