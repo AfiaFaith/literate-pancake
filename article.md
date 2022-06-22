@@ -1,6 +1,6 @@
 ---
 title: |
-  "Introduction to Python modules."
+  "Graphes sous Python."
 date: May, 2022
 lang: en-EN
 urlcolor: blue
@@ -12,19 +12,25 @@ header-includes: |
     \pagestyle{fancy}
     \fancyhf{}
     \rhead{Dakar Institute of Technology}
-    \lhead{Patrick Nsukami}
+    \lhead{Afi EDOH et Kidam BALLE}
     \rfoot{Page \thepage}
     \hypersetup{pdftex,
-            pdfauthor={Patrick Nsukami},
-            pdftitle={Introduction to Python programming},
-            pdfsubject={Introduction to Python programming},
-            pdfkeywords={Python, Programming},
+            pdfauthor={Afi EDOH et Kidam BALLE},
+            pdftitle={Python programming},
+            pdfsubject={Graphes sous Python},
+            pdfkeywords={Python, Programming, Graphes, Distance},
             pdfproducer={Emacs, Pandoc, Latex, Markdown},
             pdfcreator={Emacs, Pandoc, Latex, Markdown}}
     
 ---
 
-# Foo:
+# Sommaire:
+
+1.  Python langage favori en science (des données) : Pourquoi ?
+2.  Éléments de la théorie des graphes 
+3.  Structures de données python pour les graphes
+4.  Problème du plus court chemin et application 
+
 
 foo bar baz
 
