@@ -39,9 +39,9 @@ Connu aujourd’hui comme étant un langage de programmation incontournable en d
 
 #       2.  Éléments de la théorie des graphes 
 
-Graphes : Une introduction ! 
+## Graphes : Une introduction ! 
 
-Exemple introductif:
+### Exemple introductif:
 
 Il est 16H30 sur Dakar. Mia, étudiante au DIT, se trouve chez elle où le chargeur de son PC vient de lâcher. Pas de chance, le cours de Python est programmé ce soir à 18H.  Elle doit donc se rendre dans un magasin afin d’acquérir un nouveau chargeur. Comme il est possible de le voir sur le graphe associé, plusieurs voies plus ou moins encombrées (embouteillages) sont praticables pour ce faire.
 
@@ -59,40 +59,40 @@ Matrice d’adjacence du graphe ci-dessus:
 ![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/Im2.png) 
 
 
-Quelques définitions : 
+### Quelques définitions : 
 
 
-★   Python: est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut.
+---> Python: est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut.
 
-★   Dictionnaire Python: est une collection qui associe une clé à une valeur
+---> Dictionnaire Python: est une collection qui associe une clé à une valeur
 
-★   Collection en Python : est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
+---> Collection en Python : est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
 
-★   Graphe: est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliés par des liens. Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
+---> Graphe: est une représentation picturale d'un ensemble d'objets où certaines paires d'objets sont reliés par des liens. Les objets interconnectés sont représentés par des points appelés sommets et les liens qui relient les sommets sont appelés arêtes.
 
-★   Structures de données: sont des moyens spécifiques d'organiser et de stocker des données afin qu'elles puissent être consultées et travaillées de manière efficace.
+---> Structures de données: sont des moyens spécifiques d'organiser et de stocker des données afin qu'elles puissent être consultées et travaillées de manière efficace.
 
-★   Matrice: une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes
+---> Matrice: une structure de données bidimensionnelle dans laquelle les nombres sont organisés en lignes et en colonnes
 
-★   Algorithme: est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme
+---> Algorithme: est une suite finie d'instructions, écrites en langage naturel, qui peuvent être exécutées les unes à la suite des autres pour résoudre un problème. L'algorithme ne dépend pas du langage de programmation dans lequel il sera traduit, ni de la machine qui exécutera le programme
 
-★   Méthode: est une fonction qui "appartient à" un objet
+---> Méthode: est une fonction qui "appartient à" un objet
 
 
  
 #         3.  Structures de données python pour les graphes:
 
-Les graphes avec python:
+## Les graphes avec python:
 
 Il existe plusieurs implémentations de la représentation des graphes en python. (aussi, les graphes peuvent également être considérées comme étant des structures de données). 
 
-Liste et Matrice d’adjacence:
+### Liste et Matrice d’adjacence:
 
 Guido Van Rossum, le père de Python, suggère que les dictionnaires sont une bonne implémentation des listes d’adjacence en Python. Pour ce qui est des matrices d’adjacence, plusieurs structures de données peuvent permettre leur représentation à savoir : les listes imbriquées, les tableaux numpy (ndarray) ou encore les data frames pandas.  
 Il faut par ailleurs noter qu’il apparaît plus rigoureux de créer une classe permettant de construire un graphe de bout en bout. 
 
 
-Liste d’adjacence -> Dictionnaire Python:
+### Liste d’adjacence -> Dictionnaire Python:
 
 
 ```python
@@ -107,7 +107,7 @@ graph = { "MaisonMia" : {"Banque": 20, "DIT":25, "Magasin":25 },
 
 ```
 
-Architecture d’une classe Graph:
+### Architecture d’une classe Graph:
 
 
 ```python
@@ -156,13 +156,13 @@ class Graph(object):
 
 ```
 
-Algorithme de Moore-Dijkstra:
+### Algorithme de Moore-Dijkstra:
 
 
 Du nom de l'informaticien néerlandais Edsger Dijkstra et publié en 1959,  cet algorithme est de complexité polynomiale. Pour n sommets et a arcs, le temps d’exécution est O((a+n)log(n)). 
 
 
-Principe : 
+### Principe : 
 
 ![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/im3.png) 
 
@@ -232,12 +232,12 @@ def print_result(previous_nodes, shortest_path, start_node, target_node):
 
 #         4.  Problème du plus court chemin et application:
 
-Solution au problème de Mia:
+## Solution au problème de Mia:
 
 Les algorithmes du plus court chemin permettent, étant donné un sommet fixé dans un graphe, de déterminer le plus court chemin (au sens des poids) entre ce dernier et chacun des autres sommets. Le problème de Mia étant d’effectuer un certain parcours (Maison -> Magasin -> DIT) en un temps minimum, il requiert de trouver le plus court chemin entre la Maison et le Magasin puis entre le Magasin et le DIT. Il suffira donc de mettre en œuvre un algorithme du plus court chemin 02 fois et de se servir des résultats pour former le parcours idéal pour Mia. 
 
 
-Implémentation Python: 
+## Implémentation Python: 
 
 ```python
 noeuds = ["MaisonMia","Banque","Magasin","DIT"]
@@ -277,26 +277,13 @@ En résumé,
 Comme nous pouvons le voir, la théorie des graphes est très utile en python.
 
 
-        Ressources : 
+#      Ressources : 
 
-[](https://python-course.eu/applications-python/graphs-python.php)
-[](https://128mots.com/index.php/2020/02/17/lalgorithme-de-dijkstra-dans-un-graphe-pondere-et-oriente-en-plus-de-128-mots/)
-[](https://128mots.com/index.php/2020/02/18/implementation-python-de-lalgorithme-de-dijkstra/)
-[](https://128mots.com/index.php/2021/03/01/implementation-python-de-lalgorithme-de-bellman-ford/)
-[](https://128mots.com/index.php/2021/03/23/algorithme-de-kruskal-python/)
-[](https://favtutor.com/blogs/bellman-ford-python)
-[]( https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
-[](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
-
-
-
-foo bar baz
-
-```python
-# module foo.py
-
-a = 42
-
-def bar(x):
-    print(x)
-```
+![Application des graphes en Python](https://python-course.eu/applications-python/graphs-python.php)
+![Algorithme de Dijkstra dans un graphe](https://128mots.com/index.php/2020/02/17/lalgorithme-de-dijkstra-dans-un-graphe-pondere-et-oriente-en-plus-de-128-mots/)
+![Implementation Python de l'algorithme de Dijkstra](https://128mots.com/index.php/2020/02/18/implementation-python-de-lalgorithme-de-dijkstra/)
+![Implementation Python de l'algorithme de Bellman Ford](https://128mots.com/index.php/2021/03/01/implementation-python-de-lalgorithme-de-bellman-ford/)
+![Algorithme de Kruskal Python](https://128mots.com/index.php/2021/03/23/algorithme-de-kruskal-python/)
+![Bellman Ford Algorithm](https://favtutor.com/blogs/bellman-ford-python)
+![Bellman Ford Algorithm]( https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
+![Graph data structure and algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
