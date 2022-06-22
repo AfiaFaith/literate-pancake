@@ -32,7 +32,7 @@ header-includes: |
 4.  Problème du plus court chemin et application 
 
 
-#       1.Python langage favori en science (des données) : Pourquoi ? 
+#       1. Python langage favori en science (des données) : Pourquoi ? 
 
 Connu aujourd’hui comme étant un langage de programmation incontournable en data science, Python doit son succès à sa vaste communauté d’internautes très active et aux nombreuses bibliothèques (Numpy, Pandas, PyTorch etc.) scientifiques qu’il contient. Du fait qu’il autorise la programmation orientée objet et la programmation fonctionnelle, Python peut être considéré comme étant flexible et multi paradigmes. De plus, il combine une puissance remarquable avec une syntaxe très claire. Il peut aussi être utilisé comme langage d'extension pour les applications nécessitant une interface programmable. Enfin, Python est portable : il fonctionne sous différents systèmes d’exploitation comme Linux, macOS, et Windows.
 
@@ -48,13 +48,13 @@ Il est 16H30 sur Dakar. Mia, étudiante au DIT, se trouve chez elle où le charg
 ![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/Im1.png) 
 
 
-Mia se pose naturellement la question suivante :  Quel est le plus rapide ? 
+#### Mia se pose naturellement la question suivante :  Quel est le plus rapide ? 
 
 
 La théorie des graphes propose des solutions à cette classe de problèmes (et à bien plus encore). Elle peut être définie comme une discipline à l’intersection de l’informatique et des mathématiques qui vise à résoudre divers problèmes réels qui induisent des relations entre entités. Les entités sont appelées nœuds ou sommets, les relations sont appelées dans le cas orienté arc sinon, arêtes. Les graphes sont couramment représentés par une matrice ou une liste d’adjacence. 
 
 
-Matrice d’adjacence du graphe ci-dessus:
+#### Matrice d’adjacence du graphe ci-dessus:
 
 ![](https://raw.githubusercontent.com/AfiaFaith/literate-pancake/87ccd787e477fcb35c6694041226945695b5dcd0/img/Im2.png) 
 
