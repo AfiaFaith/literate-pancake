@@ -25,11 +25,11 @@ header-includes: |
 
 # Sommaire:
 
-* 1.  Python langage favori en science (des données) : Pourquoi ?
-* 2.  Éléments de la théorie des graphes 
-* 3.  Structures de données python pour les graphes
-* 4.  Problème du plus court chemin et application 
-* 5.  Conclusion
+1.  Python langage favori en science (des données) : Pourquoi ?
+2.  Éléments de la théorie des graphes 
+3.  Structures de données python pour les graphes
+4.  Problème du plus court chemin et application 
+5.  Conclusion
 
 
 #       1. Python langage favori en science (des données) : Pourquoi ? 
