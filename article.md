@@ -32,12 +32,12 @@ header-includes: |
 4.  Problème du plus court chemin et application 
 
 
-            1.  Python langage favori en science (des données) : Pourquoi ? 
+#       1.Python langage favori en science (des données) : Pourquoi ? 
 
 Connu aujourd’hui comme étant un langage de programmation incontournable en data science, Python doit son succès à sa vaste communauté d’internautes très active et aux nombreuses bibliothèques (Numpy, Pandas, PyTorch etc.) scientifiques qu’il contient. Du fait qu’il autorise la programmation orientée objet et la programmation fonctionnelle, Python peut être considéré comme étant flexible et multi paradigmes. De plus, il combine une puissance remarquable avec une syntaxe très claire. Il peut aussi être utilisé comme langage d'extension pour les applications nécessitant une interface programmable. Enfin, Python est portable : il fonctionne sous différents systèmes d’exploitation comme Linux, macOS, et Windows.
 
 
-           2.  Éléments de la théorie des graphes 
+#       2.  Éléments de la théorie des graphes 
 
 Graphes : Une introduction ! 
 
@@ -80,7 +80,7 @@ Quelques définitions :
 
 
  
-         3.  Structures de données python pour les graphes:
+#         3.  Structures de données python pour les graphes:
 
 Les graphes avec python:
 
@@ -230,7 +230,7 @@ def print_result(previous_nodes, shortest_path, start_node, target_node):
 
 ```
 
-         4.  Problème du plus court chemin et application:
+#         4.  Problème du plus court chemin et application:
 
 Solution au problème de Mia:
 
@@ -261,7 +261,7 @@ print_result(previous_nodes, shortest_path,"Magasin","DIT")
 
 ```
 
-        5.  Conclusion:
+#        5.  Conclusion:
 
 Nous pouvons dire que le choix d'un itinéraire à l'intérieur de chaque zone terrestre n'a pas d'importance et que la seule chose qui compte est l'ordre (ou la séquence) dans lequel les ponts sont traversés. En étudiant le problème de Mia, nous avons pu éliminer les faits inutiles et concentrer notre attention sur les terres et les ponts qui les relient. De cette façon, nous avons créé les bases de la théorie des graphes pour résoudre notre problème.En prenant une "zone terrestre" comme un sommet et chaque pont comme une arête, nous avons "réduit" le problème à un graphe.
 
