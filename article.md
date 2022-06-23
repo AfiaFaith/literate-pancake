@@ -63,8 +63,6 @@ La théorie des graphes propose des solutions à cette classe de problèmes (et 
 
 ### Quelques définitions : 
 
-* Python: est un langage de programmation polyvalent et puissant. C'est une excellente première langue car elle est concise et facile à lire. Quoi que vous vouliez faire, Python peut le faire. Du développement Web à l'apprentissage automatique en passant par la science des données, Python est le langage qu'il vous faut. 
-
 * Dictionnaire Python: est une collection qui associe une clé à une valeur.
 
 * Collection en Python : est un module python intégré qui fournit des types de données de conteneur utiles. Les types de données de conteneur nous permettent de stocker et d'accéder aux valeurs de manière pratique.
@@ -86,7 +84,7 @@ La théorie des graphes propose des solutions à cette classe de problèmes (et 
 ## Les graphes avec python:
 
 
-Il existe plusieurs implémentations de la représentation des graphes en python. (aussi, les graphes peuvent également être considérées comme étant des structures de données). 
+Il existe plusieurs implémentations de la représentation des graphes en Python. Ces derniers peuvent aussi être considérés comme des structures de données. 
 
 
 ### Liste et Matrice d’adjacence:
